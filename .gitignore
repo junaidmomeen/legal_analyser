@@ -1,5 +1,116 @@
+# ============================================
+# ENVIRONMENT VARIABLES (CRITICAL)
+# ============================================
+.env
+.env.*
+.env.local
+.env.*.local
+!.env.example
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+
+# ============================================
+# PYTHON / BACKEND
+# ============================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+backend/venv/
+backend/env/
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.whl
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# Django / Flask
+*.log
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Ruff
+.ruff_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Backend temporary/export folders
+backend/exports/
+backend/temp_uploads/
+backend/uploads/
+backend/static/uploads/
+
+# ============================================
+# NODE.JS / FRONTEND
+# ============================================
+# Dependencies
+node_modules/
+jspm_packages/
+frontend/node_modules/
+
+# Production builds
+dist/
+dist-ssr/
+build/
+.next/
+out/
+.nuxt/
+.cache/
+
+# Testing
+coverage/
+.nyc_output
+
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,30 +118,127 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Package manager files
+.pnpm-debug.log
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Local env files
 *.local
 
-# Root-level temporary folders
+# Vite
+.vite/
+
+# Turborepo
+.turbo
+
+# ============================================
+# ROOT-LEVEL TEMPORARY FOLDERS
+# ============================================
 exports/
 temp_uploads/
+uploads/
+tmp/
+temp/
 
-# Editor directories and files
+# ============================================
+# DATABASES
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# ============================================
+# IDE / EDITOR
+# ============================================
+# VSCode
 .vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
 !.vscode/extensions.json
-.idea
+!.vscode/*.code-snippets
+*.code-workspace
+
+# JetBrains (PyCharm, WebStorm, IntelliJ)
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+.vim/
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-.env
-.env.*
-backend/.env
-frontend/.env*
 
-# Backend
-backend/exports/
-backend/temp_uploads/
+# Linux
+.directory
+.Trash-*
+
+# ============================================
+# CERTIFICATES & KEYS
+# ============================================
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+
+# ============================================
+# MISC
+# ============================================
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Compressed files (if generated)
+*.zip
+*.tar.gz
+*.rar
+
+# OS generated
+.Spotlight-V100
+.Trashes
+
+# Security
+secrets.json
+credentials.json
