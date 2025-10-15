@@ -1,0 +1,106 @@
+{
+  "app": {
+    "title": "Rechtsdokument-Analysator",
+    "subtitle": "KI-gestützte Dokumenteinblicke",
+    "loading": "Laden...",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "warning": "Warnung",
+    "info": "Information"
+  },
+  "upload": {
+    "title": "Laden Sie Ihr Dokument hoch",
+    "subtitle": "Analysieren Sie PDF- oder Bilddateien für sofortige rechtliche Einblicke.",
+    "dragDrop": "Dokument hier ablegen oder durchsuchen",
+    "supportedFormats": "Unterstützt: {{formats}}",
+    "defaultFormats": "PDF, PNG, JPG, etc.",
+    "fileSize": "{{size}} MB",
+    "cancel": "Abbrechen",
+    "analyze": "Dokument analysieren",
+    "analyzing": "Analysiere...",
+    "selectFile": "Datei auswählen",
+    "fileSelected": "Datei ausgewählt"
+  },
+  "analysis": {
+    "summary": "Analysezusammenfassung",
+    "keyClauses": "Schlüsselklauseln",
+    "documentDetails": "Dokumentdetails",
+    "actions": "Aktionen",
+    "fileName": "Dateiname",
+    "documentType": "Dokumenttyp",
+    "totalPages": "Gesamtseiten",
+    "wordCount": "Wortanzahl",
+    "searchClauses": "Klauseln suchen...",
+    "allImportance": "Alle Wichtigkeit",
+    "importance": {
+      "high": "Hoch",
+      "medium": "Mittel",
+      "low": "Niedrig"
+    },
+    "riskScore": "Risikobewertung",
+    "page": "Seite",
+    "notAvailable": "N/A"
+  },
+  "actions": {
+    "exportPdf": "Datei exportieren (PDF)",
+    "exportJson": "Datei exportieren (JSON)",
+    "viewOriginal": "Originaldokument anzeigen",
+    "newAnalysis": "Neue Analyse",
+    "clearHistory": "Verlauf löschen",
+    "download": "Herunterladen",
+    "close": "Schließen",
+    "confirm": "Bestätigen",
+    "cancel": "Abbrechen"
+  },
+  "errors": {
+    "unsupportedFileType": "Nicht unterstützter Dateityp. Bitte wählen Sie einen der folgenden: {{types}}",
+    "analysisFailed": "Analyse fehlgeschlagen. Dies könnte auf ein Serverproblem oder ein Problem mit dem Dokument zurückzuführen sein. Bitte versuchen Sie es erneut.",
+    "exportFailed": "Export des {{format}}-Berichts fehlgeschlagen. Bitte versuchen Sie es später erneut.",
+    "viewOriginalFailed": "Originaldokument konnte nicht geladen werden. Bitte versuchen Sie es später erneut.",
+    "clearHistoryFailed": "Löschen des Verlaufs fehlgeschlagen. Bitte versuchen Sie es später erneut.",
+    "backendConnection": "Verbindung zum Backend nicht möglich. Bitte stellen Sie sicher, dass es läuft.",
+    "formatsNotLoaded": "Unterstützte Formate noch nicht geladen. Bitte versuchen Sie es erneut.",
+    "genericError": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+  },
+  "confirmation": {
+    "clearHistory": "Eine neue Analyse starten wird die aktuellen Ergebnisse verwerfen. Sind Sie sicher, dass Sie fortfahren möchten?",
+    "clearHistoryTitle": "Verlauf löschen"
+  },
+  "accessibility": {
+    "uploadArea": "Datei-Upload-Bereich. Ziehen Sie Dateien hierher oder klicken Sie zum Durchsuchen.",
+    "searchClauses": "Rechtliche Klauseln durchsuchen",
+    "filterImportance": "Klauseln nach Wichtigkeitsstufe filtern",
+    "toggleClause": "Klauseldetails für {{type}} umschalten",
+    "downloadFile": "{{format}}-Bericht herunterladen",
+    "viewDocument": "Originaldokument anzeigen",
+    "startNewAnalysis": "Neue Dokumentanalyse starten",
+    "clearAllHistory": "Gesamten Analyseverlauf löschen",
+    "closeDialog": "Dialog schließen",
+    "confirmAction": "Aktion bestätigen",
+    "cancelAction": "Aktion abbrechen"
+  },
+  "keyboard": {
+    "shortcuts": "Tastenkürzel",
+    "uploadFile": "Datei hochladen",
+    "newAnalysis": "Neue Analyse",
+    "search": "Suchen",
+    "escape": "Schließen/Beenden",
+    "help": "Hilfe anzeigen"
+  },
+  "help": {
+    "title": "Hilfe und Tastenkürzel",
+    "gettingStarted": "Erste Schritte",
+    "step1": "1. Laden Sie ein Rechtsdokument hoch (PDF oder Bild)",
+    "step2": "2. Klicken Sie auf 'Dokument analysieren', um es zu verarbeiten",
+    "step3": "3. Überprüfen Sie die Analyseergebnisse und Schlüsselklauseln",
+    "step4": "4. Exportieren Sie Berichte oder zeigen Sie das Originaldokument an",
+    "supportedFormats": "Unterstützte Formate",
+    "supportedFormatsDesc": "Wir unterstützen PDF-Dateien und gängige Bildformate (PNG, JPG, JPEG, GIF, BMP, TIFF, WEBP).",
+    "keyboardShortcuts": "Tastenkürzel",
+    "shortcutUpload": "Strg+U - Neue Datei hochladen",
+    "shortcutNewAnalysis": "Strg+N - Neue Analyse starten",
+    "shortcutSearch": "Strg+F - Suchfokus",
+    "shortcutEscape": "Escape - Dialoge schließen",
+    "shortcutHelp": "F1 - Diese Hilfe anzeigen"
+  }
+}

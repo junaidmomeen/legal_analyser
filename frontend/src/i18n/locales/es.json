@@ -1,0 +1,106 @@
+{
+  "app": {
+    "title": "Analizador de Documentos Legales",
+    "subtitle": "Insights de Documentos con IA",
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "warning": "Advertencia",
+    "info": "Información"
+  },
+  "upload": {
+    "title": "Sube tu Documento",
+    "subtitle": "Analiza archivos PDF o imágenes para obtener insights legales instantáneos.",
+    "dragDrop": "Arrastra el documento aquí o navega",
+    "supportedFormats": "Soporta: {{formats}}",
+    "defaultFormats": "PDF, PNG, JPG, etc.",
+    "fileSize": "{{size}} MB",
+    "cancel": "Cancelar",
+    "analyze": "Analizar Documento",
+    "analyzing": "Analizando...",
+    "selectFile": "Seleccionar Archivo",
+    "fileSelected": "Archivo Seleccionado"
+  },
+  "analysis": {
+    "summary": "Resumen del Análisis",
+    "keyClauses": "Cláusulas Clave",
+    "documentDetails": "Detalles del Documento",
+    "actions": "Acciones",
+    "fileName": "Nombre del Archivo",
+    "documentType": "Tipo de Documento",
+    "totalPages": "Total de Páginas",
+    "wordCount": "Conteo de Palabras",
+    "searchClauses": "Buscar cláusulas...",
+    "allImportance": "Toda la Importancia",
+    "importance": {
+      "high": "Alta",
+      "medium": "Media",
+      "low": "Baja"
+    },
+    "riskScore": "Puntuación de Riesgo",
+    "page": "Página",
+    "notAvailable": "N/A"
+  },
+  "actions": {
+    "exportPdf": "Exportar Archivo (PDF)",
+    "exportJson": "Exportar Archivo (JSON)",
+    "viewOriginal": "Ver Documento Original",
+    "newAnalysis": "Nuevo Análisis",
+    "clearHistory": "Limpiar Historial",
+    "download": "Descargar",
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar"
+  },
+  "errors": {
+    "unsupportedFileType": "Tipo de archivo no soportado. Por favor selecciona uno de: {{types}}",
+    "analysisFailed": "El análisis falló. Esto podría deberse a un problema del servidor o del documento. Por favor intenta de nuevo.",
+    "exportFailed": "Falló la exportación del reporte {{format}}. Por favor intenta más tarde.",
+    "viewOriginalFailed": "No se pudo cargar el documento original. Por favor intenta más tarde.",
+    "clearHistoryFailed": "Falló al limpiar el historial. Por favor intenta más tarde.",
+    "backendConnection": "No se pudo conectar con el backend. Por favor asegúrate de que esté ejecutándose.",
+    "formatsNotLoaded": "Los formatos soportados aún no se han cargado. Por favor intenta de nuevo.",
+    "genericError": "Ocurrió un error inesperado. Por favor intenta de nuevo."
+  },
+  "confirmation": {
+    "clearHistory": "Iniciar un nuevo análisis descartará los resultados actuales. ¿Estás seguro de que quieres continuar?",
+    "clearHistoryTitle": "Limpiar Historial"
+  },
+  "accessibility": {
+    "uploadArea": "Área de carga de archivos. Arrastra y suelta archivos aquí o haz clic para navegar.",
+    "searchClauses": "Buscar en cláusulas legales",
+    "filterImportance": "Filtrar cláusulas por nivel de importancia",
+    "toggleClause": "Alternar detalles de cláusula para {{type}}",
+    "downloadFile": "Descargar reporte {{format}}",
+    "viewDocument": "Ver documento original",
+    "startNewAnalysis": "Iniciar nuevo análisis de documento",
+    "clearAllHistory": "Limpiar todo el historial de análisis",
+    "closeDialog": "Cerrar diálogo",
+    "confirmAction": "Confirmar acción",
+    "cancelAction": "Cancelar acción"
+  },
+  "keyboard": {
+    "shortcuts": "Atajos de Teclado",
+    "uploadFile": "Subir Archivo",
+    "newAnalysis": "Nuevo Análisis",
+    "search": "Buscar",
+    "escape": "Cerrar/Salir",
+    "help": "Mostrar Ayuda"
+  },
+  "help": {
+    "title": "Ayuda y Atajos de Teclado",
+    "gettingStarted": "Primeros Pasos",
+    "step1": "1. Sube un documento legal (PDF o imagen)",
+    "step2": "2. Haz clic en 'Analizar Documento' para procesarlo",
+    "step3": "3. Revisa los resultados del análisis y las cláusulas clave",
+    "step4": "4. Exporta reportes o ve el documento original",
+    "supportedFormats": "Formatos Soportados",
+    "supportedFormatsDesc": "Soportamos archivos PDF y formatos de imagen comunes (PNG, JPG, JPEG, GIF, BMP, TIFF, WEBP).",
+    "keyboardShortcuts": "Atajos de Teclado",
+    "shortcutUpload": "Ctrl+U - Subir nuevo archivo",
+    "shortcutNewAnalysis": "Ctrl+N - Iniciar nuevo análisis",
+    "shortcutSearch": "Ctrl+F - Enfocar búsqueda",
+    "shortcutEscape": "Escape - Cerrar diálogos",
+    "shortcutHelp": "F1 - Mostrar esta ayuda"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "app": {
+    "title": "Analyseur de Documents Juridiques",
+    "subtitle": "Insights de Documents avec IA",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "warning": "Avertissement",
+    "info": "Information"
+  },
+  "upload": {
+    "title": "Téléchargez votre Document",
+    "subtitle": "Analysez des fichiers PDF ou images pour des insights juridiques instantanés.",
+    "dragDrop": "Déposez le document ici ou naviguez",
+    "supportedFormats": "Supporte: {{formats}}",
+    "defaultFormats": "PDF, PNG, JPG, etc.",
+    "fileSize": "{{size}} MB",
+    "cancel": "Annuler",
+    "analyze": "Analyser le Document",
+    "analyzing": "Analyse en cours...",
+    "selectFile": "Sélectionner un Fichier",
+    "fileSelected": "Fichier Sélectionné"
+  },
+  "analysis": {
+    "summary": "Résumé de l'Analyse",
+    "keyClauses": "Clauses Clés",
+    "documentDetails": "Détails du Document",
+    "actions": "Actions",
+    "fileName": "Nom du Fichier",
+    "documentType": "Type de Document",
+    "totalPages": "Total des Pages",
+    "wordCount": "Nombre de Mots",
+    "searchClauses": "Rechercher des clauses...",
+    "allImportance": "Toute l'Importance",
+    "importance": {
+      "high": "Élevée",
+      "medium": "Moyenne",
+      "low": "Faible"
+    },
+    "riskScore": "Score de Risque",
+    "page": "Page",
+    "notAvailable": "N/A"
+  },
+  "actions": {
+    "exportPdf": "Exporter Fichier (PDF)",
+    "exportJson": "Exporter Fichier (JSON)",
+    "viewOriginal": "Voir le Document Original",
+    "newAnalysis": "Nouvelle Analyse",
+    "clearHistory": "Effacer l'Historique",
+    "download": "Télécharger",
+    "close": "Fermer",
+    "confirm": "Confirmer",
+    "cancel": "Annuler"
+  },
+  "errors": {
+    "unsupportedFileType": "Type de fichier non pris en charge. Veuillez sélectionner l'un des: {{types}}",
+    "analysisFailed": "L'analyse a échoué. Cela pourrait être dû à un problème de serveur ou de document. Veuillez réessayer.",
+    "exportFailed": "Échec de l'exportation du rapport {{format}}. Veuillez réessayer plus tard.",
+    "viewOriginalFailed": "Impossible de charger le document original. Veuillez réessayer plus tard.",
+    "clearHistoryFailed": "Échec de l'effacement de l'historique. Veuillez réessayer plus tard.",
+    "backendConnection": "Impossible de se connecter au backend. Veuillez vous assurer qu'il fonctionne.",
+    "formatsNotLoaded": "Les formats pris en charge ne sont pas encore chargés. Veuillez réessayer.",
+    "genericError": "Une erreur inattendue s'est produite. Veuillez réessayer."
+  },
+  "confirmation": {
+    "clearHistory": "Démarrer une nouvelle analyse supprimera les résultats actuels. Êtes-vous sûr de vouloir continuer?",
+    "clearHistoryTitle": "Effacer l'Historique"
+  },
+  "accessibility": {
+    "uploadArea": "Zone de téléchargement de fichiers. Glissez-déposez des fichiers ici ou cliquez pour naviguer.",
+    "searchClauses": "Rechercher dans les clauses juridiques",
+    "filterImportance": "Filtrer les clauses par niveau d'importance",
+    "toggleClause": "Basculer les détails de la clause pour {{type}}",
+    "downloadFile": "Télécharger le rapport {{format}}",
+    "viewDocument": "Voir le document original",
+    "startNewAnalysis": "Démarrer une nouvelle analyse de document",
+    "clearAllHistory": "Effacer tout l'historique d'analyse",
+    "closeDialog": "Fermer le dialogue",
+    "confirmAction": "Confirmer l'action",
+    "cancelAction": "Annuler l'action"
+  },
+  "keyboard": {
+    "shortcuts": "Raccourcis Clavier",
+    "uploadFile": "Télécharger un Fichier",
+    "newAnalysis": "Nouvelle Analyse",
+    "search": "Rechercher",
+    "escape": "Fermer/Quitter",
+    "help": "Afficher l'Aide"
+  },
+  "help": {
+    "title": "Aide et Raccourcis Clavier",
+    "gettingStarted": "Pour Commencer",
+    "step1": "1. Téléchargez un document juridique (PDF ou image)",
+    "step2": "2. Cliquez sur 'Analyser le Document' pour le traiter",
+    "step3": "3. Consultez les résultats de l'analyse et les clauses clés",
+    "step4": "4. Exportez des rapports ou consultez le document original",
+    "supportedFormats": "Formats Pris en Charge",
+    "supportedFormatsDesc": "Nous prenons en charge les fichiers PDF et les formats d'image courants (PNG, JPG, JPEG, GIF, BMP, TIFF, WEBP).",
+    "keyboardShortcuts": "Raccourcis Clavier",
+    "shortcutUpload": "Ctrl+U - Télécharger un nouveau fichier",
+    "shortcutNewAnalysis": "Ctrl+N - Démarrer une nouvelle analyse",
+    "shortcutSearch": "Ctrl+F - Concentrer la recherche",
+    "shortcutEscape": "Échap - Fermer les dialogues",
+    "shortcutHelp": "F1 - Afficher cette aide"
+  }
+}

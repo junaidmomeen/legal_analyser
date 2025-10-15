@@ -1,0 +1,111 @@
+{
+  "app": {
+    "title": "Legal Document Analyzer",
+    "subtitle": "AI-Powered Document Insights",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information"
+  },
+  "upload": {
+    "title": "Upload Your Document",
+    "subtitle": "Analyze PDF or image files for instant legal insights.",
+    "dragDrop": "Drop document here or browse",
+    "supportedFormats": "Supports: {{formats}}",
+    "defaultFormats": "PDF, PNG, JPG, etc.",
+    "fileSize": "{{size}} MB",
+    "cancel": "Cancel",
+    "analyze": "Analyze Document",
+    "analyzing": "Analyzing...",
+    "selectFile": "Select File",
+    "fileSelected": "File Selected"
+  },
+  "analysis": {
+    "summary": "Analysis Summary",
+    "keyClauses": "Key Clauses",
+    "documentDetails": "Document Details",
+    "actions": "Actions",
+    "fileName": "File Name",
+    "documentType": "Document Type",
+    "totalPages": "Total Pages",
+    "wordCount": "Word Count",
+    "searchClauses": "Search clauses...",
+    "allImportance": "All Importance",
+    "importance": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "riskScore": "Risk Score",
+    "page": "Page",
+    "notAvailable": "N/A"
+  },
+  "actions": {
+    "exportPdf": "Export File (PDF)",
+    "exportJson": "Export File (JSON)",
+    "viewOriginal": "View Original Document",
+    "newAnalysis": "New Analysis",
+    "clearHistory": "Clear History",
+    "download": "Download",
+    "close": "Close",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "errors": {
+    "unsupportedFileType": "Unsupported file type. Please select one of: {{types}}",
+    "analysisFailed": "Analysis failed. This could be due to a server issue or a problem with the document. Please try again.",
+    "exportFailed": "Failed to export the {{format}} report. Please try again later.",
+    "viewOriginalFailed": "Could not load the original document. Please try again later.",
+    "clearHistoryFailed": "Failed to clear history. Please try again later.",
+    "backendConnection": "Could not connect to the backend. Please ensure it's running.",
+    "formatsNotLoaded": "Supported formats not loaded yet. Please try again.",
+    "genericError": "An unexpected error occurred. Please try again."
+  },
+  "confirmation": {
+    "clearHistory": "Starting a new analysis will discard the current results. Are you sure you want to continue?",
+    "clearHistoryTitle": "Clear History"
+  },
+  "accessibility": {
+    "uploadArea": "File upload area. Drag and drop files here or click to browse.",
+    "searchClauses": "Search through legal clauses",
+    "filterImportance": "Filter clauses by importance level",
+    "toggleClause": "Toggle clause details for {{type}}",
+    "downloadFile": "Download {{format}} report",
+    "viewDocument": "View original document",
+    "startNewAnalysis": "Start a new document analysis",
+    "clearAllHistory": "Clear all analysis history",
+    "closeDialog": "Close dialog",
+    "confirmAction": "Confirm action",
+    "cancelAction": "Cancel action",
+    "showHelp": "Show help and keyboard shortcuts",
+    "selectLanguage": "Select language"
+  },
+  "keyboard": {
+    "shortcuts": "Keyboard Shortcuts",
+    "uploadFile": "Upload File",
+    "newAnalysis": "New Analysis",
+    "search": "Search",
+    "escape": "Close/Exit",
+    "help": "Show Help"
+  },
+  "help": {
+    "title": "Help & Keyboard Shortcuts",
+    "gettingStarted": "Getting Started",
+    "step1": "1. Upload a legal document (PDF or image)",
+    "step2": "2. Click 'Analyze Document' to process it",
+    "step3": "3. Review the analysis results and key clauses",
+    "step4": "4. Export reports or view the original document",
+    "supportedFormats": "Supported Formats",
+    "supportedFormatsDesc": "We support PDF files and common image formats (PNG, JPG, JPEG, GIF, BMP, TIFF, WEBP).",
+    "keyboardShortcuts": "Keyboard Shortcuts",
+    "shortcutUpload": "Ctrl+U - Upload new file",
+    "shortcutNewAnalysis": "Ctrl+N - Start new analysis",
+    "shortcutSearch": "Ctrl+F - Focus search",
+    "shortcutEscape": "Escape - Close dialogs",
+    "shortcutHelp": "F1 - Show this help"
+  },
+  "i18n": {
+    "language": "en-US"
+  }
+}

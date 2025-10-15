@@ -1,0 +1,27 @@
+# Git files
+.git
+.github
+.gitignore
+
+# Python specific
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.env
+env.example
+
+# Test files
+tests/
+pytest.ini
+verify_ocr.py
+
+# Setup scripts
+setup-requirements.bat
+setup-requirements.sh
+
+# IDE/Editor specific
+.idea
+.vscode
